@@ -5,8 +5,8 @@ Pod::Spec.new do |s|
 
   s.name            = package['name']
   s.version         = package["version"]
-  s.homepage        = package['repository']
-  s.summary         = package["summary"]
+  s.homepage        = "https://github.com/hieuvp/react-native-fingerprint-scanner"
+  s.summary         = package["description"]
   s.license         = "MIT"
   s.author          = { "Hieu Van" => "brentvatne@gmail.com",
                         "Gennady Evstratov" => "g@goodworkapps.com" }
